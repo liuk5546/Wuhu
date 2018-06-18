@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="../css/materialize.min.css" media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+        .nav-left{
+            padding-left: 82px;
+        }
+        img{
+            width: 128px;
+            height: 128px;
+            margin: 8px;
+        }
+        #logo{
+            padding-left: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <div class="nav-wrapper blue">
+        <a href="#" class="brand-logo" id="logo">呜呼</a>
+        <ul class="hide-on-med-and-down ">
+            <li class="nav-left"><a href="sass.html">首页</a></li>
+            <li><a href="badges.html">发现</a></li>
+            <li><a href="collapsible.html">话题</a></li>
+            <li><a href="collapsible.html">提问</a></li>
+        </ul>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href=""><i class="material-icons">chat_bubble_outline</i></a></li>
+            <li><a href=""><i class="material-icons">perm_identity</i></a></li>
+            <li><a href=""><i class="material-icons">more_vert</i></a></li>
+        </ul>
+    </div>
+</nav>
+<div class="row">
+    <form class="col s12">
+        <div class="row">
+            <div class="input-field col s12 m6">
+                <input placeholder="占位提示" id="first_name" type="text" class="validate">
+                <label for="first_name">姓名</label>
+            </div>
+            <div class="input-field col s12 m6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">爱好</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="password" type="password" class="validate">
+                <label for="password">密码</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="password_confirm" type="password" class="validate">
+                <label for="password">密码</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <input id="email" type="email" class="validate">
+                <label for="email">邮件</label>
+            </div>
+        </div>
+        <div class="row center">
+            <input type="checkbox" id="agree"/>
+            <label for="agree">同意本站的<a class="modal-trigger" href="#modal1">《条例规范》</a></label>
+        </div>
+        <div class="row center">
+            <input type="submit" class="waves-effect blue btn" value="注册"/>
+        </div>
+    </form>
+</div>
+
+<div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <h4>呜呼使用条例</h4>
+        <p>一、总则
+            　　1、制定本条例的目的在于维护诗词吾爱网（下简称"网站"）秩序、保障网站安全、保障网站用户的合法权益。
+            　　2、制定本条例的依据是国家有关法律、法规，当本条例与国家法律、法规冲突时，以国家法律、法规为准。
+            　　3、用户愿意接受本条例，方可注册，成为本网站正式用户。
+            　　4、早期注册用户，如不同意本条例，请勿继续在本站发表作品和言论，并自行删除作品，否则视为同意本条例。
+
+            二、用户的权利与责任
+            　　1、用户享有网站用户的各种权利，可享受网站提供的各项服务。
+            　　2、用户在网站进行的所有活动应遵守本网站的管理条例，遵守中华人民共和国法律、法规，并自行承担因从事网站活动直接或间接引起的一切法律责任。
+            　　3、用户要注意保管好账号、邮箱及密码，用户如发现账号遭他人非法使用，应立即通知网站管理者。因黑客行为或用户保管疏忽导致账号、密码遭他人非法使用，网站不承担任何责任。
+            　　4、用户认为自己在网站的权益受到侵害，有权根据网站相关规定进行投诉申诉。　　
+            　　5、用户需遵守网络道德，注意网络礼仪，做到文明上网。
+
+            三、网站规则
+            　　（一）网站禁止内容
+            　　1、反对宪法确定的基本原则的；
+            　　2、危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的；
+            　　3、损害国家荣誉和利益的、伤害国人感情的、攻击抹黑执政党或国家领导人\前国家领导人的；
+            　　4、煽动民族仇恨、民族歧视，破坏民族团结的；
+            　　5、煽动非法集会、结社、游行、示威、聚众扰乱社会秩序的；
+            　　6、破坏国家宗教政策，宣扬邪教和封建迷信的；
+            　　7、散布谣言，扰乱社会秩序，破坏社会稳定的；
+            　　8、散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；
+            　　9、侮辱或者诽谤他人、侵害他人合法权益的、对他人冷嘲热讽或言语攻击的；
+            　　10、以非法民间组织名义活动的；
+            　　11、包含种族、肤色、性别、性取向、宗教、民族、地域、残疾、社会经济状况等歧视内容的言论和消息；
+            　　12、含有法律、行政法规禁止的其他内容的；
+            　　13、未经公开报道、未经证实的消息（发布本人亲身经历的事件请注明并将联络办法告知网站管理员）；
+            　　14、可能妨害第三方权益的文件或者信息，例如（包括但不限于）：病毒代码、黑客程序、软件破解注册信息；
+            　　15、抄袭及剽窃他人的作品；
+            　　16、缺乏理性讨论诚意、无理纠缠、恶意灌水等浪费版面资源的信息；
+            　　17、包含影响用户正常浏览的内容或格式的文章；
+            　　18、引起其他用户情绪不安的图片、文字内容；
+            　　19、涉及他人隐私、有意模仿他人注册名或冒充本站管理人员发布的信息；
+            　　20、破坏网站及网站秩序、侵害网站及网站利益的其他内容；
+            　　21、未经网站允许，通过贴子、留言等方式发布广告的；
+            　　22、攻击抹黑网站及网站工作人员的；
+            　　23、言语措辞粗俗不堪的；
+
+            　　（二）网名和账号管理规定：
+            　　1、请勿以党和国家领导人或其他名人的真实姓名、字号、艺名、昵称注册；
+            　　2、请勿以国家机构或其他机构的名称注册；
+            　　3、请勿注册不文明、不健康之网名；
+            　　4、请勿注册易产生歧义、引起他人误解之网名；　　
+            　　5、对于和其他用户网名相近并可能引起争执的，网站将支持先注册的用户，而保留取消后注册用户网名的权利；
+            　　6、对于注册多个账号的会员，网站有权删除其所有账号。
+            　　7、对于涉嫌冒用他人姓名、相片的，网站有权要求其进行身份认证，如无法提供认证的，网站有权删除其资料或账号；
+            　　8、用户需对自己的账号和密码安全负责，如遗失密码，请通过“找回密码”功能找回，若因注册时填写虚假邮箱而导致网站无法发送新密码，损失由用户自己承担。若忘记注册邮箱，可以与网站管理者联系解决，但必须提供能够证明账号归属权的资料。
+            　　9、对于违反网站管理规定的作品、评论、贴图等等，管理员有权直接删除，并对其采取警告、禁言、封号、删号、封IP等处罚手段。
+
+            　　 四、隐私权保护
+            　　1、保护用户隐私是网站的一项基本政策，网站保证不对外公开或向第三方提供单个用户的注册资料及用户在使用网络服务时存储在网站的非公开内容，但下列情况除外：
+            　　　　（1）用户本人授权网站透露这些信息；
+            　　　　（2）相关的法律法规要求网站提供用户的个人资料。
+            　　2、在不透露用户隐私资料的前提下，网站有权对整个用户数据库进行分析并对用户数据库进行适当的使用。
+
+            五、版权声明
+            　　1、用户在本网站发表的文章或图片仅代表用户本人观点，文责自负。
+            　　2、本网站只能发布原创作品、文章，若转贴文章，请注明原始出处和时间，并注意原作者的版权声明，用户需承担转贴可能引起的版权责任。
+            　　3、网站管理员有权删除非原创作品、文章等内容；
+            　　4、诗词吾爱网有权将在本网站发表的文章或图片（附带版权声明除外）自行使用或者与他人合作，包括但不限于网站、电子杂志、平面出版等。用于平面出版等商业性用途时，将按同行业的稿费标准支付稿酬。
+            　　5、诗词吾爱网的作品、文章及图片（包括转贴的文章及图片）版权仅归原作者所有，若作者有版权声明或原作从其它网站转载而附带有原版权声明者，其版权归属以附带声明为准。
+            　　6、任何转载、引用发表于本网站的版权文章须符合以下规范：
+            　　　　（1）征得文章或图片原作者同意，注明作者及文章及图片的出处为"诗词吾爱网"（www.52shici.com），并向作者支付稿酬。
+            　　　　（2）任何文章或图片的修改或删除均应保持作者原意并征求原作者同意，并注明授权范围。
+
+            六、免责声明
+            　　1、本网站用户之间通过网站相识、交往中所发生或可能发生的任何心理、生理上的伤害和经济上的损失，本网站不承担任何责任。
+            　　2、本网站用户因其个人原因造成资料保管不妥而导致个人隐私被泄露的，本网站不承担任何责任。
+            　　3、用户在本网站的活动触犯了中华人民共和国法律法规的，责任自负，本网站不承担任何责任。
+            　　4、诗词吾爱网不担保网站服务一定能满足用户的要求，也不保证网站各项服务不会中断，对网站服务的及时性、安全性也不作担保。
+            　　5、诗词吾爱网不保证为向用户提供便利而设置的外部链接的准确性和完整性，同时，对于该外部链接指向的不由本网站实际控制的任何网页上的内容，网站也不承担任何责任。
+            　　6、由于非故意及不可抗拒的原因（含系统维护和升级），导致用户数据丢失、服务暂停或停止，网站不承担赔偿及其他连带的法律责任，但将尽力减少因此而给用户造成的损失和影响。
+            7、网站不承担保存用户数据的义务，用户需自行保存和备份。
+
+            七、附则
+            　　1、网站根据需要可能会对本条例进行局部修正或增补，不再另行通知。
+            　　2、本条例解释权归诗词吾爱网所有。</p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">同意</a>
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">不同意</a>
+    </div>
+</div>
+
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){
+        // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+        $('.modal').modal();
+    });
+</script>
+</body>
+</html>
